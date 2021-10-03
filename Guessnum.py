@@ -16,5 +16,5 @@ while(gnum>0):
     elif num<n:
         print("Enter a larger number:\n")
         continue
-        
-print("Game Over!!!!!")
+if gnum==0:        
+    print("Game Over!!!!!")
