@@ -10,7 +10,7 @@ while(gnum>0):
 
     elif num==n:
         print("Congrats! You guessed the number correctly\n")
-        print("You guessed the number correctly in",gnum-1,"guesses")
+        print("You guessed the number correctly in",9-gnum,"guesses")
         break
 
     elif num<n:
